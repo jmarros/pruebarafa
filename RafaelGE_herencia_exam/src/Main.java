@@ -18,6 +18,7 @@ public class Main {
 		list.add(e);
 		
 		Persona.muestraLista(list);
+		System.out.println("Hola mundo");
 
 	}
 
