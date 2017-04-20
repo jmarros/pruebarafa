@@ -3,19 +3,20 @@ import java.util.concurrent.atomic.AtomicInteger;
 // TODO: Auto-generated Javadoc
 /**
  * The Class MiembroSeleccion.
+ * @author Rafael Gonzalez Escobar
  */
 public abstract class MiembroSeleccion  extends Persona {
 	
-	/** The next id. */
+	/** Herramienta que nos autogenera un numéro partiendo de 0.*/
 	private static AtomicInteger nextId = new AtomicInteger(0);
 	
-	/** The identificador federativo. */
+	/** Guarda un INT autogenerado del identificador federativo. */
 	private int identificadorFederativo;
 	
 	/**
-	 * Instantiates a new miembro seleccion.
+	 * Inicializamos las variables de instancia de la clase MiembroSeleccion.
 	 *
-	 * @param persona the persona
+	 * @param Persona llama al constructor de la clase Persona
 	 */
 	public MiembroSeleccion(Persona persona) {
 		super(persona);
@@ -37,7 +38,7 @@ public abstract class MiembroSeleccion  extends Persona {
 	/**
 	 * Gets the identificador federativo.
 	 *
-	 * @return the identificador federativo
+	 * @return el valor del identificador federativo
 	 */
 	public int getIdentificadorFederativo() {
 		return identificadorFederativo;
@@ -46,7 +47,7 @@ public abstract class MiembroSeleccion  extends Persona {
 	/**
 	 * Sets the identificador federativo.
 	 *
-	 * @param identificadorFederativo the new identificador federativo
+	 * @param establecemos el identificador federativo
 	 */
 	public void setIdentificadorFederativo(int identificadorFederativo) {
 		this.identificadorFederativo = identificadorFederativo;

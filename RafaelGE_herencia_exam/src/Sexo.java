@@ -1,23 +1,23 @@
-
 // TODO: Auto-generated Javadoc
 /**
  * The Enum Sexo.
+ * @author Rafael Gonzalez Escobar
  */
 public enum Sexo {
 	
-	/** The hombre. */
+	/** ser hombre. */
 	HOMBRE("Hombre"),
 	
-	/** The mujer. */
+	/** ser mujer. */
 	MUJER("Mujer");
 
-	/** The sexo. */
+	/** Almacena el sexo de la persona. */
 	private String sexo;
 
 	/**
 	 * Instantiates a new sexo.
 	 *
-	 * @param sexo the sexo
+	 * @param le pasamos el sexo de la persona
 	 */
 	private Sexo(String sexo) {
 		this.sexo = sexo;
@@ -26,7 +26,7 @@ public enum Sexo {
 	/**
 	 * Gets the sexo.
 	 *
-	 * @return the sexo
+	 * @return nombre de sexo
 	 */
 	public String getSexo() {
 		return sexo;
@@ -35,7 +35,7 @@ public enum Sexo {
 	/**
 	 * Sets the sexo.
 	 *
-	 * @param sexo the new sexo
+	 * @param establecemos el sexo de la persona
 	 */
 	public void setSexo(String sexo) {
 		this.sexo = sexo;

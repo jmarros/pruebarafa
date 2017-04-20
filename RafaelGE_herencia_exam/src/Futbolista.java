@@ -1,19 +1,19 @@
 
-
 // TODO: Auto-generated Javadoc
 /**
  * The Class Futbolista.
+ * @author Rafael Gonzalez Escobar
  */
 public class Futbolista extends MiembroSeleccion {
 
-	/** The posicion. */
+	/** Almacena la demarcación del futbolista. */
 	private Demarcacion posicion;
 
 	/**
-	 * Instantiates a new futbolista.
+	 * Inicializamos las variables de instancia de la clase Futbolista.
 	 *
-	 * @param persona the persona
-	 * @param posicion the posicion
+	 * @param Le pasamos un objeto Persona al constructor de la clase Persona
+	 * @param Asigna posicion a posicion
 	 */
 	public Futbolista(Persona persona, Demarcacion posicion) {
 		super(persona);
@@ -34,7 +34,7 @@ public class Futbolista extends MiembroSeleccion {
 	/**
 	 * Gets the posicion.
 	 *
-	 * @return the posicion
+	 * @return el nombre de la posicion del futbolista
 	 */
 	public Demarcacion getPosicion() {
 		return posicion;
@@ -43,7 +43,7 @@ public class Futbolista extends MiembroSeleccion {
 	/**
 	 * Sets the posicion.
 	 *
-	 * @param posicion the new posicion
+	 * @param establecemos la posicion del futbolista
 	 */
 	public void setPosicion(Demarcacion posicion) {
 		this.posicion = posicion;

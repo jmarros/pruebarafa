@@ -1,30 +1,30 @@
 
-
 // TODO: Auto-generated Javadoc
 /**
- * The Enum Demarcación.
+ * The Enum Demarcacion.
+ * @author Rafael Gonzalez Escobar
  */
 public enum Demarcacion {
 	
-	/** The portero. */
+	/** ser portero. */
 	PORTERO("Portero"),
 	
-	/** The defensa. */
+	/** ser defensa. */
 	DEFENSA("defensa"),
 	
-	/** The centrocampista. */
+	/** ser centrocampista. */
 	CENTROCAMPISTA("Centrocampista"),
 	
-	/** The delantero. */
+	/** ser delantero. */
 	DELANTERO("Delantero");
 
-	/** The demarcacion. */
+	/** Almacena el nombre de la demarcación correspondiente */
 	private String demarcacion;
 	
 	/**
 	 * Instantiates a new demarcación.
 	 *
-	 * @param demarcacion the demarcacion
+	 * @param le pasamos el nombre de la demarcacion
 	 */
 	private Demarcacion(String demarcacion) {
 		this.demarcacion = demarcacion;
@@ -33,7 +33,7 @@ public enum Demarcacion {
 	/**
 	 * Gets the demarcación.
 	 *
-	 * @return the demarcación
+	 * @return nombre de la demarcacion
 	 */
 	public String getDemarcación() {
 		return demarcacion;
@@ -42,7 +42,7 @@ public enum Demarcacion {
 	/**
 	 * Sets the demarcación.
 	 *
-	 * @param demarcacion the new demarcación
+	 * @param establecemos el nombre de la demarcacion
 	 */
 	public void setDemarcación(String demarcacion) {
 		this.demarcacion = demarcacion;

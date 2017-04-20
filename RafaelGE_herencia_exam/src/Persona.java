@@ -1,29 +1,29 @@
 
-
 import java.util.List;
 
 
 // TODO: Auto-generated Javadoc
 /**
  * The Class Persona.
+ * @author Rafael Gonzalez Escobar
  */
 public class Persona extends Object {
 
-	/** The nombre. */
+	/** Almacena el nombre de la persona. */
 	private String nombre;
 	
-	/** The apellido. */
+	/** Almacena el apellido de la persona. */
 	private String apellido;
 	
-	/** The sexo. */
+	/** Almacena el sexo de la persona. */
 	private Sexo sexo;
 
 	/**
-	 * Instantiates a new persona.
+	 * Inicializamos las variables de instancia de la clase Persona.
 	 *
-	 * @param nombre the nombre
-	 * @param apellido the apellido
-	 * @param sexo the sexo
+	 * @param Asigna nombre a nombre
+	 * @param Asigna apellido a apellido
+	 * @param Asigna sexo a sexo
 	 */
 	public Persona(String nombre, String apellido, Sexo sexo) {
 		this.nombre = nombre;
@@ -32,9 +32,9 @@ public class Persona extends Object {
 	}
 	
 	/**
-	 * Instantiates a new persona.
+	 * Inicializamos las variables de instancia de la clase Persona.
 	 *
-	 * @param persona the persona
+	 * @param Le pasamos un objeto creado de Persona
 	 */
 	public Persona(Persona persona) {
 		this.nombre = persona.getNombre();
@@ -60,7 +60,7 @@ public class Persona extends Object {
 	/**
 	 * Muestra lista.
 	 *
-	 * @param personas the personas
+	 * @param muestra el contenido de los objetos
 	 */
 	public static void muestraLista(List<Persona> personas) {
 		for(Persona persona:personas) {
@@ -71,7 +71,7 @@ public class Persona extends Object {
 	/**
 	 * Gets the nombre.
 	 *
-	 * @return the nombre
+	 * @return el nombre de la persona
 	 */
 	public String getNombre() {
 		return nombre;
@@ -80,7 +80,7 @@ public class Persona extends Object {
 	/**
 	 * Sets the nombre.
 	 *
-	 * @param nombre the new nombre
+	 * @param  establecemos el nombre de la persona
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
@@ -89,7 +89,7 @@ public class Persona extends Object {
 	/**
 	 * Gets the apellido.
 	 *
-	 * @return the apellido
+	 * @return el apellido de la persona
 	 */
 	public String getApellido() {
 		return apellido;
@@ -98,7 +98,7 @@ public class Persona extends Object {
 	/**
 	 * Sets the apellido.
 	 *
-	 * @param apellido the new apellido
+	 * @param establecemos el apellido de la persona
 	 */
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
@@ -107,7 +107,7 @@ public class Persona extends Object {
 	/**
 	 * Gets the sexo.
 	 *
-	 * @return the sexo
+	 * @return el sexo de la persona
 	 */
 	public Sexo getSexo() {
 		return sexo;
@@ -116,7 +116,7 @@ public class Persona extends Object {
 	/**
 	 * Sets the sexo.
 	 *
-	 * @param sexo the new sexo
+	 * @param establecemos el sexo de la persona
 	 */
 	public void setSexo(Sexo sexo) {
 		this.sexo = sexo;

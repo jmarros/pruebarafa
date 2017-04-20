@@ -1,31 +1,30 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
-
-
 // TODO: Auto-generated Javadoc
 /**
  * The Class Entrenador.
+ * @author Rafael Gonzalez Escobar
  */
 public class Entrenador extends MiembroSeleccion {
 	
-	/** The next id. */
+	/** Herramienta que nos autogenera un numéro partiendo de 0. */
 	private static AtomicInteger nextId = new AtomicInteger(0);
 	
-	/** The licencia federativa. */
+	/** Guarda un INT autogenerado de la licencia federativa. */
 	private int licenciaFederativa;
 	
-	/** The años experiencias. */
+	/** Guarda un INT con los años de experiencias. */
 	private int añosExperiencias;
 	
-	/** The equipos. */
+	/** Almacena los equipos entrenados. */
 	private String equipos;
 
 	/**
-	 * Instantiates a new entrenador.
+	 * Inicializamos las variables de instancia de la clase Entrenador.
 	 *
-	 * @param persona the persona
-	 * @param añosExperiencias the años experiencias
-	 * @param equipos the equipos
+	 * @param Persona llama al constructor de la clase Persona
+	 * @param Asigna añosExperiencias a años experiencias
+	 * @param Asigna equipos a equipos
 	 */
 	public Entrenador(Persona persona, int añosExperiencias, String equipos) {
 		super(persona);
@@ -51,7 +50,7 @@ public class Entrenador extends MiembroSeleccion {
 	/**
 	 * Gets the licencia federativa.
 	 *
-	 * @return the licencia federativa
+	 * @return la licencia federativa
 	 */
 	public int getLicenciaFederativa() {
 		return licenciaFederativa;
@@ -60,7 +59,7 @@ public class Entrenador extends MiembroSeleccion {
 	/**
 	 * Sets the licencia federativa.
 	 *
-	 * @param licenciaFederativa the new licencia federativa
+	 * @param establecemos el valor de la licencia federativa
 	 */
 	public void setLicenciaFederativa(int licenciaFederativa) {
 		this.licenciaFederativa = licenciaFederativa;
@@ -69,7 +68,7 @@ public class Entrenador extends MiembroSeleccion {
 	/**
 	 * Gets the equipos.
 	 *
-	 * @return the equipos
+	 * @return los nombres de los equipos entrenados
 	 */
 	public String getEquipos() {
 		return equipos;
@@ -78,7 +77,7 @@ public class Entrenador extends MiembroSeleccion {
 	/**
 	 * Sets the equipos.
 	 *
-	 * @param equipos the new equipos
+	 * @param establecemos el nombre de los equipos entrenados
 	 */
 	public void setEquipos(String equipos) {
 		this.equipos = equipos;
@@ -87,7 +86,7 @@ public class Entrenador extends MiembroSeleccion {
 	/**
 	 * Gets the años experiencias.
 	 *
-	 * @return the años experiencias
+	 * @return los años experiencias
 	 */
 	public int getAñosExperiencias() {
 		return añosExperiencias;
@@ -96,7 +95,7 @@ public class Entrenador extends MiembroSeleccion {
 	/**
 	 * Sets the años experiencias.
 	 *
-	 * @param añosExperiencias the new años experiencias
+	 * @param establecemos el valor d elos años de experiencias
 	 */
 	public void setAñosExperiencias(int añosExperiencias) {
 		this.añosExperiencias = añosExperiencias;
