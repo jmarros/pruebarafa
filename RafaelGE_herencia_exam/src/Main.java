@@ -23,6 +23,7 @@ public class Main {
 		list.add(f);
 		list.add(e);
 		
+		
 		Persona.muestraLista(list);
 
 	}
