@@ -40,6 +40,5 @@ public class Eliza {
 
 		} while(!pregunta.contains("adios"));
 		input.close();
-
 	}
 }
